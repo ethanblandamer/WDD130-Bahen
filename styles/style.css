@@ -7,8 +7,13 @@
 }
 
 body{
-    max-width: 80%;
+    max-width: 70%;
     margin: auto;
+}
+
+header{
+    background: #3DDC84;
+    color: #000000;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -21,5 +26,79 @@ p{
 
 a{
     font-family: system-ui, sans-serif;
-    
+    text-decoration: none;
+    color: #000000;
+}
+
+#hero{
+    background: #157145;
+    color: #FFFFFF;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 0 1.5em;
+    margin-bottom: 1em;
+    padding: 2em;
+}
+
+#hero .links{
+    padding: 1em;
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#hero p{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-size: 1.2em;
+}
+
+#hero h1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 3em;
+
+}
+
+.links .button{
+    box-shadow: 3px 3px 5px #000000;
+}
+
+#hero img{
+    grid-column: 2/3;
+    grid-row: 1/4;
+    padding: 2em;
+    max-width: 90%;
+    align-self: center;
+    justify-self: center;
+}
+
+.button{
+    background: #3DDC84;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 3px 3px 5px #157145;
+    margin: 1em;
+}
+
+#we_are, #mission, #find{
+    text-align: center;
+    margin: .5em;
+    font-size: 2.5em;
+}
+
+#content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#content p{
+    margin: 1em;
+}
+
+footer{
+    background: #3DDC84;
+    color: #000000;
+    padding: 3em;
 }
