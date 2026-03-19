@@ -14,6 +14,15 @@ body{
 header{
     background: #3DDC84;
     color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 h1, h2, h3, h4, h5, h6{
