@@ -1,0 +1,116 @@
+@import url();
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    max-width: 70%;
+    margin: auto;
+}
+
+header{
+    background: #3DDC84;
+    color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1em;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Trebuchet MS", sans-serif;
+}
+
+p{
+    font-family: system-ui, sans-serif;
+    padding: 10px;
+}
+
+a{
+    font-family: system-ui, sans-serif;
+    text-decoration: none;
+    color: #000000;
+}
+
+.links .button{
+    box-shadow: 3px 3px 5px #000000;
+}
+
+.button{
+    background: #3DDC84;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 3px 3px 5px #157145;
+    margin: 1em;
+}
+
+#we_are, #mission, #find{
+    text-align: center;
+    margin: .5em;
+    font-size: 2.5em;
+}
+
+#content{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#content p{
+    margin: 1em;
+}
+
+#phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#galaxy{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#pixel{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#oneplus{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#nothing{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#redmagic{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+#motorola{
+    justify-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+footer{
+    background: #3DDC84;
+    color: #000000;
+    padding: 3em;
+}
