@@ -77,36 +77,54 @@ a{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 #photographer{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 #power{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 #budget{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 #fashion{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 #gamer{
     justify-items: center;
     text-align: center;
     text-decoration: none;
+    margin: 1em;
+    border: solid, black, 3px;
+    margin-top: 3em;
 }
 
 footer{
