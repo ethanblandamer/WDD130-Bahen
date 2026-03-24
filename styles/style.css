@@ -21,8 +21,9 @@ header{
 
 nav{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 40px;
     align-items: center;
+    font-size: 1.5em;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -31,6 +32,7 @@ h1, h2, h3, h4, h5, h6{
 
 p{
     font-family: system-ui, sans-serif;
+    font-size: 1.2em;
 }
 
 a{
@@ -44,8 +46,8 @@ a{
     color: #FFFFFF;
     display: grid;
     grid-template-columns: 2fr 3fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    margin: 0 1.5em;
+    grid-template-rows: 120px 1fr 1fr;
+    margin: 0 1.2em;
     margin-bottom: 1em;
     padding: 2em;
 }
@@ -54,18 +56,20 @@ a{
     padding: 1em;
     grid-column: 1/2;
     grid-row: 3/4;
+    align-self: center;
+    justify-self: center;
 }
 
 #hero p{
     grid-column: 1/2;
     grid-row: 2/3;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 #hero h1{
     grid-column: 1/2;
     grid-row: 1/2;
-    font-size: 3em;
+    font-size: 3.2em;
 
 }
 
@@ -86,20 +90,22 @@ a{
     background: #3DDC84;
     border: 2px solid #000000;
     border-radius: 5px;
-    padding: 3px;
+    padding: 10px;
     box-shadow: 3px 3px 5px #157145;
     margin: 1em;
 }
 
 #we_are, #mission, #find{
     text-align: center;
-    margin: .5em;
-    font-size: 2.5em;
+    margin: 1em;
+    margin-top: 2em;
+    font-size: 2.8em;
 }
 
 #content{
     max-width: 80%;
     margin: 0 auto;
+    margin-bottom: 3em;
 }
 
 #content p{
@@ -109,5 +115,10 @@ a{
 footer{
     background: #3DDC84;
     color: #000000;
-    padding: 3em;
+    padding: 3.2em;
+    text-align: center;
+}
+
+footer .button{
+    margin: 0 3em;
 }
