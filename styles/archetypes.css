@@ -71,6 +71,7 @@ a{
 #archetypes{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: #157145;
 }
 
 #simple{
@@ -80,6 +81,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 #photographer{
@@ -89,6 +92,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 #power{
@@ -98,6 +103,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 #budget{
@@ -107,6 +114,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 #fashion{
@@ -116,6 +125,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 #gamer{
@@ -125,6 +136,8 @@ a{
     margin: 1em;
     border: solid, black, 3px;
     margin-top: 3em;
+    box-shadow: 3px 3px 5px;
+    background-color: white;
 }
 
 footer{
